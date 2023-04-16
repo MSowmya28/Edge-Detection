@@ -14,14 +14,18 @@ Import all necessary modules.
 For performing edge detection on a image.
 
 *Sobel:
+```
 sobelx = cv2.Sobel(gray_img,cv2.CV_64F,1,0,ksize=5)
 sobely = cv2.Sobel(gray_img,cv2.CV_64F,0,1,ksize=5)
 sobelxy =cv2.Sobel(gray_img,cv2.CV_64F,1,1,ksize=5)
+```
 
 Laplacian:
+
 laplacian = cv2.Laplacian(gray_img,cv2.CV_64F)
 
 Canny:
+
 canny_edges = cv2.Canny(gray_img, 120, 150)
 
 ### Step3:
